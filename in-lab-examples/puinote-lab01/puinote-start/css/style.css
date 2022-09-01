@@ -1,0 +1,117 @@
+body {
+    /*setting default font family & color for the application*/
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #939393;
+
+    /*setting background color*/
+    background-color: #191919;
+}
+
+.notecard {
+    width: 450px;
+    height: 180px;
+    border-radius: 8px;
+    background-color: blue;
+    margin: 100px auto 0px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    
+    display: flex;
+}
+
+.notecard-left {
+    width: auto;
+    flex-grow: 1;
+}
+
+.notecard-right {
+    width: 30px;
+    flex-shrink: 0;
+}
+
+.notecard-thumbnail {
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+}
+
+.note-title { /*heading at top of notecard*/
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.note-body {
+    font-size: 14px;
+    font-weight: 400;
+    color: red;
+}
+
+.notecard-main-content {
+    display: flex;
+}
+
+.notecard-thumbnail {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.notecard-text {
+    margin-top: 26px;
+    margin-left: 20px;
+}
+
+.notecard-title {
+    margin-bottom: 10px;
+}
+
+.notecard-footer {
+    margin-top: 15px;
+    font-size: 12px;
+    color: yellow;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    color: white;
+}
+
+.icon-collapse {
+    display: none;
+}
+
+.icon:hover {
+    color: purple;
+    background-color: orange;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-delete {
+    width: 30px;
+    height: 30px;
+    
+    margin-top: 15px;
+    padding: 0;
+
+    font-size: 14px;
+    font-weight: 700;
+
+    background-color: #a91515;
+    border: 2px solid #595959;
+    border-color: white;
+    border-radius: 5px;
+    color: #59c70b;
+
+    cursor: pointer;
+}
+
+.btn-delete:hover {
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}
