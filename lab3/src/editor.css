@@ -10,14 +10,13 @@
   border-top: 1px solid #939393;
 
   transition-property: bottom;
-  transition-duration: 500ms;
-  display: none;  
+  transition-duration: 500ms;    
 }
+
 
 /* TODO: Add comments */
 #note-editor.edit-mode {
   bottom: 0px;
-  display: block;
 }
 
 
@@ -69,6 +68,14 @@
 /* TODO: Add comments */
 #note-editor.edit-mode #btn-new-note {
   pointer-events: none;
+}
+
+#note-editor {
+  display: none;
+}
+
+#note-editor.edit-mode {
+  display: block;
 }
 
 
